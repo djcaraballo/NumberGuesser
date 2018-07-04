@@ -1,0 +1,150 @@
+body {
+  font-family: "OpenSans-Regular";
+}
+
+
+/*********************************************/
+/*HEADER STYLING*/
+/*make background for header*/
+header {
+  background: #404041;
+}
+
+/*H1 STYLING*/
+/*make the number and guesser headings sit next to each other. maybe inline-block*/
+/*center text*/
+h1 {
+  text-align: center; /*not working*/  
+  font-size: 48pt;
+  padding: 30px;
+}
+
+/*NUMBER ONLY HEADING STYLING*/
+/*format sizing, weight, and color of number heading*/
+/*center text*/
+#number {
+  font-family: "open sans";
+  font-weight: 700;
+  font-style: bold;
+  color: #ED458B;
+  text-align: center; /*not working*/
+}
+
+/*GUESSER ONLY HEADING STYLING*/
+/*format sizing, weight, and color of guesser heading*/
+/*center text*/
+#guesser {
+  font-family: "open sans";
+  font-weight: 300;
+  font-style: light;
+  color: #E6E7E8;
+  text-align: center; /*not working*/
+}
+
+/*********************************************/
+
+
+
+/*MAIN STYLING*/
+/*center all elements inside the main element*/
+/*main {
+  align-content: center;
+}*/
+
+/*BUTTON SECTION STYLING*/
+/*center form*/
+section.buttons {
+  margin: auto;
+}
+
+button {
+  background-color: #D0D2D3;
+  color: white;
+  width: 250px;
+  height: 50px;
+  font-family: "open sans";
+  font-weight: 300;
+  font-style: light;
+  font-size: 24pt;
+  border-radius: 80px;
+
+}
+
+
+/*NUMBER-INPUT STYLING*/
+/*format placeholder text size and color*/
+/*format box width and height*/
+input.number-input {
+  display: block;
+  height: 40px;
+  width: 490px;
+  border: 2px solid #D0D2D3;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+::-webkit-input-placeholder {
+  font-family: "open sans";
+  font-weight: 300;
+  font-style: light;
+  font-size: 24pt;
+  color: #D0D2D3;
+
+}
+
+/*GUESS-SUBMIT STYLING*/
+/*format text size and color*/
+/*format border corners*/
+/*format background color*/
+.guess-submit {
+
+}
+
+/*CLEAR-SUBMIT STYLING*/
+/*format text size and color*/
+/*format border corners*/
+/*format background color*/
+.clear-submit {
+
+}
+
+.clear-submit:hover {
+  background-color: #EB008B;
+}
+
+/*SECTION STYLING*/
+
+
+/*H4 STYLING*/
+/*format font color, size, and weight*/
+/*center text*/
+h4 {
+
+}
+
+/*NUMBER-OUTPUT STYLING*/
+/*format text color, size, and weight*/
+/*center text*/
+.number-output {
+
+}
+
+/*TEXT-OUTPUT STYLING*/
+/*format text color, size, and weight*/
+/*center text*/
+.text-output {
+
+}
+
+/*RESET-SUBMIT STYLING*/
+/*format text size and color*/
+/*format border corners*/
+/*format background color*/
+.reset-submit {
+
+}
+
+
+
